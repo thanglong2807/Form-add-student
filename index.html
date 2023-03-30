@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="style4.css">
+</head>
+
+<body>
+    <div class="container">
+        <h1 class="">ADD STUDENT FROM</h1>
+        <div class="form-control d-flex flex-column gap-2 bg-light">
+            <input type="text" name="" value="" class="name-student p-md-2" placeholder="enter name...">
+            <input type="email" name="" value="" class="email-student p-md-2" placeholder="enter email...">
+            <input type="text" name="" value="" class="phone-student p-md-2" placeholder="enter SĐT...">
+            <input type="date" name="" value="" class="year-student p-md-2" placeholder="enter Birthday...">
+            <input type="text" name="" value="" class="address-student p-md-2" placeholder="enter address...">
+            <div class="d-flex gap-4">
+                Gender :
+                <input type="radio" name="gender" value="Nam" class="gender-student p-md-2"> Nam
+                <input type="radio" name="gender" value="Nữ" class="gender-student p-md-2"> Nữ
+            </div>
+            <button class="btn-add-student btn btn-secondary p-md-2 ">add</button>
+
+        </div>
+
+
+        <input type="text" name="" value="" class="search-student p-md-2" placeholder="Enter name student...">
+
+        <h2>LIST STUDENT</h2>
+        <table class="table table-info">
+            <thead>
+                <tr class="list-students">
+                    <td>Username</td>
+                    <th>email</th>
+                    <th>SĐT</th>
+                    <th>Birthday</th>
+                    <th>Gender</th>
+                    <th>Address</th>
+                </tr>
+            </thead>
+            <tbody class="list-student">
+
+            </tbody>
+        </table>
+        <script src="jquery.min.js"></script>
+        <script src="app4.js"></script>
+</body>
+
+</html>
