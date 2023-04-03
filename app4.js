@@ -8,6 +8,7 @@ $(document).ready(function () {
         let valueYear = $(".year-student").val()
         let gender = $(".gender-student").val()
         let oldElement = $(".list-student").html()
+        
         $(".list-student").html(`
         ${oldElement}
         <tr class="row-student">
