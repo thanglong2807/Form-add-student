@@ -12,8 +12,6 @@ $(document).ready(function () {
         $(".list-student").html(`
         ${oldElement}
         <tr class="row-student">
-                    
-               
             <td class="username">${valueName}</td>
             <td class="">${valueEmail}</td>
             <td class="">${valuePhone}</td>
